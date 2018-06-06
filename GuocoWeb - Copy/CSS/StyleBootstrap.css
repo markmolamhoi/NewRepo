@@ -1,0 +1,332 @@
+﻿/* Standard CSS of LH 
+20110519    New     -.GridContainer .FixedGridRowTitle .FixedGridColumnTitle .FixedGridColumnData 
+20110601    Update  -.gridview and datagrid has same outlook  
+20110610    New     -.AlignTop
+20110914    New     -.pageContaineriFrame
+                    - .font12vc1
+20120611    New     -Add LSLIBWebBased.css
+20130218    Update  -Add LSStandard CSS
+*/ 
+
+
+.BackColor { 
+    background-color: #DCE6FF; 
+} 
+
+/* Nav Menu - Navigationbar.ascx */ 
+#LSProjectLanguage { 
+    float: right; 
+    font-size: 12px; 
+    line-height: 24px; 
+    padding: 0 5px; 
+    text-align: right; 
+} 
+#LSProjectLanguage ul { 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+} 
+#LSProjectLanguage li { 
+    color: #FFFFFF; 
+    display: inline; 
+} 
+.nav li { position: relative } 
+#LSProjectLanguage a { 
+    color: #FFFFFF; 
+    padding: 0 5px; 
+} 
+#LSProjectLanguage a:hover { 
+    color: orange; 
+    text-decoration: underline; 
+} 
+
+
+/* LSProjectHeader - LSPageHeader.ascx */
+.tblLSProjectHeader { 
+    border-collapse: collapse; 
+    font-family: Verdana,Arial,@仿宋_GB2312,System; 
+    font-size: 12px; 
+    width: 100%; 
+    white-space: normal; 
+}
+
+.LSProjectLogo { 
+    text-align: left; 
+    padding: 5px 5px; 
+    width: 50px; 
+ }
+
+#LSProjectHeader {
+    border-bottom: 1px solid #69C;
+    background-color: #662d91;
+    color: #fff;
+} 
+
+#LSProjectTitle { 
+    text-align: left;
+    font-weight: bold; 
+    font-size: 20px;
+} 
+/* Nav Menu - Navigationbar.ascx */ 
+#ProjectLanguage { 
+    float: right; 
+    font-size: 12px; 
+    line-height: 24px; 
+    padding: 0 5px; 
+    text-align: right; 
+} 
+.nav { 
+    background-color: #5e9300; 
+    font-size: 12px; 
+    height: 24px; 
+    line-height: 24px; 
+    text-align: right; 
+} 
+.nav ul, 
+#ProjectLanguage ul { 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+} 
+.nav li, 
+#ProjectLanguage li { 
+    color: #FFFFFF; 
+    display: inline; 
+} 
+.nav li { position: relative } 
+#ProjectLanguage a { 
+    color: #FFFFFF; 
+    padding: 0 5px; 
+} 
+#ProjectLanguage a:hover { 
+    color: orange; 
+    text-decoration: underline; 
+} 
+.nav li a { 
+    color: #FFFFFF; 
+    font-size: 13px; 
+    padding: 0 5px; 
+    text-decoration: none; 
+} 
+.nav li a:hover { 
+    color: orange; 
+    text-decoration: none; 
+} 
+.nav li ul { display: none } 
+.nav li.on ul { 
+    background-color: #FFFFFF; 
+    border: solid 1px #5e9300; 
+    border-bottom: none; 
+    border-collapse: collapse; 
+    display: block; 
+    left: 5px; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    position: absolute; 
+    text-align: left; 
+    top: 18px; 
+    white-space: nowrap; 
+    z-index: 50; 
+} 
+.nav li.on li a { 
+    border-bottom: 1px solid #5e9300; 
+    color: #666; 
+    display: block; 
+    font-size: 12px; 
+    height: 21px; 
+    line-height: 21px; 
+    text-decoration: none; 
+} 
+.nav li.on li a:hover { background-color: #FEF3D1 } 
+.nav li.on li span { 
+    font-size: 12px; 
+    padding: 2px; 
+    cursor: pointer; 
+} 
+.nav span { 
+    font-size: 13px; 
+    padding: 5px; 
+    cursor: default; 
+} 
+.nav span:hover { 
+    color: orange; 
+    text-decoration: none; 
+} 
+
+
+/* ProjectHeader - LSPageHeader.ascx */
+.tblProjectHeader { 
+    border-collapse: collapse; 
+    font-family: Verdana,Arial,@仿宋_GB2312,System; 
+    font-size: 12px; 
+    width: 100%; 
+    white-space: normal; 
+}
+
+.ProjectLogo { 
+    text-align: left; 
+    padding: 5px 5px; 
+    width: 50px; 
+ }
+
+#ProjectHeader { 
+    border-bottom: 1px solid #69C; 
+    background-color: #369; 
+    color: #fff; 
+} 
+
+#ProjectTitle { 
+    text-align: left;
+    font-weight: bold; 
+    font-size: 20px;
+} 
+
+#ProjectLanguage { 
+    float: right; 
+    font-size: 12px; 
+    line-height: 24px; 
+    padding: 0 5px; 
+    text-align: right; 
+} 
+
+/* PageHeader - LSPageHeaderClosePrint.ascx */
+.tblPageHeader { 
+    border-collapse: collapse; 
+    font-family: Verdana,Arial,@仿宋_GB2312,System; 
+    font-size: 12px; 
+    width: 100%; 
+    white-space: normal; 
+} 
+.PageLogo { 
+text-align: left; 
+padding: 5px 5px; 
+width: 50px; 
+}
+
+.PageCloseAndPrint { 
+    margin: 0 5px; 
+    padding: 0 5px; 
+    text-align: right; 
+    width: 80px; 
+} 
+
+/* text-align */ 
+.textLeft { text-align: left } 
+.textRight { text-align: right } 
+.textCenter { text-align: center } 
+.textTop { vertical-align: top } 
+.textMiddle { vertical-align: middle } 
+.textBottom { vertical-align: bottom } 
+
+
+
+
+/***************************************************************************/
+/***************************************************************************/
+/***************************************************************************/
+
+
+form {
+    font-family: Verdana,Arial,@仿宋_GB2312,System; 
+}
+/* Tag styles */ 
+h1 { 
+    font-size: 22px; 
+    font-weight: bold; 
+    margin: 0; 
+    padding: 0; 
+} 
+img { border: 0 } 
+a { 
+    color: #377FAF; 
+    text-decoration: none; 
+} 
+a:hover { 
+    color: orange; 
+    text-decoration: underline; 
+} 
+
+/* Width */ 
+.width85 { width: 85% } 
+.width90 { width: 90% } 
+.width80 { width: 80% } 
+.width100 { width: 100% } 
+.width5 { width: 5% } 
+.width8 { width: 8% } 
+.width10 { width: 10% } 
+.width12 { width: 12% } 
+.width15 { width: 15% } 
+.width20 { width: 20% } 
+.width7 { width: 7% } 
+.widthItemID { width: 125px } 
+.widthDate { width: 65px } 
+.widthShort { width: 45px } 
+.widthDateEng { width: 80px } 
+.width18 { width: 18% } 
+.width28 { width: 28% } 
+.width30 { width: 30% } 
+.width35 { width: 35% } 
+.width40 { width: 40% } 
+.width50 { width: 50% } 
+.width65 { width: 65% } 
+.width70 { width: 70% } 
+.width75 { width: 75% } 
+.widthPercentFifteen { width: 15% } 
+.widthPercentEighteen { width: 18% } 
+.widthPercentTwenty { width: 20% } 
+.widthPercentThirty { width: 30% } 
+.widthPercentThirtyTwo { width: 32% } 
+.widthPercentThirtyFive { width: 35% } 
+/* float */ 
+.floatLeft { float: left } 
+.floatRight { float: right } 
+.alignMiddle { 
+    width: 100%; 
+    vertical-align: middle; 
+    text-align: center; 
+} 
+
+.remarkText { 
+    font-size: 12px; 
+
+}
+
+.selectwidthauto {
+    width: auto !important;
+}
+
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+
+/*  loading animations 20160531 no use for asp.net*/
+.glyphicon.spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+
+/*@media (min-width:100px) {
+    .container {
+        width: 100%;
+    }
+}*/
+
+
+.gridview th
+{
+    background-color: rgb(217, 231, 255);
+}
